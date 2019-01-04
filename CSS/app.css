@@ -29,8 +29,11 @@ h1, h2, h3, h3, h4, h5, h6 {
 
 .section-poster {
   padding-top: 125px;
-  padding-bottom: 125px;
-  background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB); }
+  padding-bottom: 69px;
+  background-image: url(../assets/bg-img/colored.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .section-primary {
   padding-top: 75px;
@@ -42,40 +45,18 @@ h1, h2, h3, h3, h4, h5, h6 {
   padding-bottom: 75px;
   background-color: #000000; }
 
-.section-footer {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: #000000; }
-
-.poster-section-footer {
-  display: flex;
-  background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB); }
-
-.poster-wave {
-  display: inline-block;
-  border-left: 40vw solid #FFFFFF;
-  border-right: 50px solid transparent;
-  border-bottom: 75px solid #FFFFFF; }
-
-.skills-section-footer {
-  display: flex;
-  background-color: #000000; }
-
-.skills-wave {
-  display: inline-block;
-  border-left: 40vw solid #FFFFFF;
-  border-right: 50px solid transparent;
-  border-top: 75px solid #FFFFFF; }
-
 .section-navbar {
+  padding: 0;
   height: 56px;
-  background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
+  background-color: #FFFFFF;
   position: fixed;
   float: left;
-  z-index: 99; }
+  z-index: 99;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .nav-title {
   margin: 0;
+  color: #424242 !important;
   line-height: 56px;
   font-weight: 900 !important; }
 
