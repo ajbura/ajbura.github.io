@@ -1,5 +1,5 @@
 // When the user scrolls the page, execute myFunction
-//window.onscroll = function() {detectScroll()};
+window.onscroll = function() {detectScroll()};
 
 function detectScroll() {
 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
