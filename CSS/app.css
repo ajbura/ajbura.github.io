@@ -1,6 +1,9 @@
 /*###### Theme Colors ###### */
 /*######## Text Theme ######### */
 /*######## Layout Theme ####### */
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   padding: 0;
@@ -17,8 +20,10 @@ h1, h2, h3, h3, h4, h5, h6 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 900; }
 
-.navbar {
-  padding: 8px 0; }
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 .base-container {
   -moz-background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
@@ -38,17 +43,18 @@ h1, h2, h3, h3, h4, h5, h6 {
   padding-bottom: 75px;
   background-color: #FFFFFF;
   border-radius: 0.5rem;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); }
 
 .section-secondary {
   padding: 75px 0; }
 
-.section-footer {
-  padding: 8px 0; }
+#footer-container {
+  padding: 16px 0; }
 
 .section-navbar {
-  padding: 8px 0;
-  background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB); }
+  padding: 8px 0; }
 
 .nav-title {
   margin: 0;
@@ -137,8 +143,8 @@ h1, h2, h3, h3, h4, h5, h6 {
   background-color: #8000F1; }
   .btn-primary:hover {
     background-color: #5A00DB;
-    -webkit-box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2); }
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=app.css.map */
