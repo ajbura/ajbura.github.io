@@ -26,10 +26,10 @@ a {
     text-decoration: none; }
 
 .base-container {
-  -moz-background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  -webkit-background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  -o-background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  background: linear-gradient(to left, #D9B3FB, #C080F8, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
+  -moz-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
+  -webkit-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
+  -o-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
+  background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
   overflow: hidden; }
 
 .custom-container {
@@ -54,7 +54,7 @@ a {
   padding: 16px 0; }
 
 .section-navbar {
-  padding: 8px 0; }
+  padding: 8px 15px; }
 
 .nav-title {
   margin: 0;
