@@ -7,7 +7,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Varela Round", "Roboto", "Josefin Sans", sans-serif; }
+  font-family: "Varela Round", "Roboto", "Josefin Sans", sans-serif;
+  letter-spacing: 0.5px; }
 
 ::selection {
   background-color: rgba(0, 0, 0, 0.2); }
@@ -28,8 +29,8 @@ a {
   margin-top: 25px; }
 
 .section-poster {
-  padding: 224px 15px 200px;
-  background-color: #8000F1; }
+  padding: 200px 15px 180px;
+  background-color: #455a64; }
 
 .section-primary {
   padding-top: 75px;
@@ -38,16 +39,17 @@ a {
 
 .section-secondary {
   padding: 75px 0;
-  background-color: #8000F1; }
+  background-color: #455a64; }
 
 #footer-container {
-  background-color: black;
+  background-color: #455a64;
   padding: 0px 0 16px; }
 
 .section-navbar {
   padding: 8px 0px;
   background-color: #FFFFFF;
   position: fixed;
+  top: 0;
   float: left;
   z-index: 99;
   -webkit-box-shadow: 0 1px 32px 0 rgba(0, 0, 0, 0.2);
@@ -82,14 +84,14 @@ a {
     margin: 0;
     padding: 0 16px;
     font-size: 1rem;
-    color: #424242;
+    color: #555555;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background 200ms ease-in; }
     .nav-menu li:hover {
-      background-color: rgba(128, 0, 241, 0.2); }
+      background-color: rgba(0, 0, 0, 0.1); }
     .nav-menu li:active {
-      background-color: rgba(128, 0, 241, 0.3); }
+      background-color: rgba(0, 0, 0, 0.2); }
     .nav-menu li i {
       display: none; }
 
@@ -113,7 +115,7 @@ a {
       display: block;
       padding: 8px 0;
       font-size: 1.4rem;
-      color: #424242; } }
+      color: #555555; } }
 .h-xl {
   font-size: 3.5rem;
   font-weight: 900; }
@@ -156,13 +158,13 @@ a {
   color: #eeeeee; }
 
 .dark {
-  color: #212121; }
-
-.lowDark {
   color: #424242; }
 
+.lowDark {
+  color: #555555; }
+
 .primary {
-  color: #8000F1; }
+  color: #455a64; }
 
 .secondary {
   color: #00E676; }
@@ -183,7 +185,7 @@ a {
   color: #eeeeee; }
 
 .icon-primary {
-  color: #424242; }
+  color: #555555; }
 
 .trans-card {
   padding-top: 16px;
@@ -191,15 +193,15 @@ a {
   border-radius: 0.5rem; }
 
 .progress {
-  background-color: rgba(128, 0, 241, 0.2); }
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .progress-bar {
-  background-color: #8000F1; }
+  background-color: #455a64; }
 
 .btn-primary {
-  background-color: #8000F1; }
+  background-color: #455a64; }
   .btn-primary:hover {
-    background-color: #8000F1;
+    background-color: #455a64;
     -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2); }
