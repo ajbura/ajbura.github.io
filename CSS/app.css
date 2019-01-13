@@ -29,11 +29,7 @@ a {
 
 .section-poster {
   padding: 224px 15px 200px;
-  background-color: #424242;
-  background-image: url(../assets/bg-img/color.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-color: #8000F1; }
 
 .section-primary {
   padding-top: 75px;
@@ -42,13 +38,11 @@ a {
 
 .section-secondary {
   padding: 75px 0;
-  -moz-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  -webkit-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  -o-background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB);
-  background: linear-gradient(to left, #A64DF5, #9326F3, #8000F1, #7000E8, #5A00DB, #4600D0, #2200BB); }
+  background-color: #8000F1; }
 
 #footer-container {
-  padding: 16px 0; }
+  background-color: black;
+  padding: 0px 0 16px; }
 
 .section-navbar {
   padding: 8px 0px;
@@ -93,9 +87,9 @@ a {
     cursor: pointer;
     transition: background 200ms ease-in; }
     .nav-menu li:hover {
-      background-color: #D9B3FB; }
+      background-color: rgba(128, 0, 241, 0.2); }
     .nav-menu li:active {
-      background-color: #C080F8; }
+      background-color: rgba(128, 0, 241, 0.3); }
     .nav-menu li i {
       display: none; }
 
@@ -162,7 +156,7 @@ a {
   color: #eeeeee; }
 
 .dark {
-  color: #000000; }
+  color: #212121; }
 
 .lowDark {
   color: #424242; }
@@ -182,10 +176,14 @@ a {
 .align-section-contact {
   text-align: left; }
 
+.icon-primary,
 .icon-secondary {
   padding-top: 50px;
   font-size: 2.8rem;
   color: #eeeeee; }
+
+.icon-primary {
+  color: #424242; }
 
 .trans-card {
   padding-top: 16px;
@@ -193,17 +191,17 @@ a {
   border-radius: 0.5rem; }
 
 .progress {
-  background-color: #F0E0FD; }
+  background-color: rgba(128, 0, 241, 0.2); }
 
 .progress-bar {
-  background: linear-gradient(to left, #C080F8, #8000F1); }
+  background-color: #8000F1; }
 
 .btn-primary {
   background-color: #8000F1; }
   .btn-primary:hover {
-    background-color: #5A00DB;
-    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); }
+    background-color: #8000F1;
+    -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=app.css.map */
