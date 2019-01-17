@@ -7,8 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Varela Round", "Roboto", "Josefin Sans", sans-serif;
-  letter-spacing: 0.5px; }
+  font-family: "Roboto", "Varela Round", "Josefin Sans", sans-serif; }
 
 ::selection {
   background-color: rgba(0, 0, 0, 0.2); }
@@ -22,27 +21,32 @@ a {
     text-decoration: none; }
 
 .base-container {
-  background-color: #FFFFFF;
+  padding-top: 64px;
+  background-color: #8000F1;
   overflow: hidden; }
+
+.poster-container {
+  background-color: red; }
 
 .custom-container {
   margin-top: 25px; }
 
-.section-poster {
-  padding: 200px 15px 180px;
-  background-color: #455a64; }
+@media screen and (max-width: 770px) {
+  .extra-space-container {
+    display: none; } }
+.section-primary,
+.section-secondary {
+  padding-top: 75px;
+  padding-bottom: 75px; }
 
 .section-primary {
-  padding-top: 75px;
-  padding-bottom: 75px;
   background-color: #FFFFFF; }
 
 .section-secondary {
-  padding: 75px 0;
-  background-color: #455a64; }
+  background-color: #8000F1; }
 
 #footer-container {
-  background-color: #455a64;
+  background-color: black;
   padding: 0px 0 16px; }
 
 .section-navbar {
@@ -51,10 +55,7 @@ a {
   position: fixed;
   top: 0;
   float: left;
-  z-index: 99;
-  -webkit-box-shadow: 0 1px 32px 0 rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 32px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 32px 0 rgba(0, 0, 0, 0.2); }
+  z-index: 99; }
 
 .nav-left-container {
   display: inline-block; }
@@ -89,13 +90,13 @@ a {
     cursor: pointer;
     transition: background 200ms ease-in; }
     .nav-menu li:hover {
-      background-color: rgba(0, 0, 0, 0.1); }
+      background-color: rgba(128, 0, 241, 0.1); }
     .nav-menu li:active {
-      background-color: rgba(0, 0, 0, 0.2); }
+      background-color: rgba(128, 0, 241, 0.2); }
     .nav-menu li i {
       display: none; }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 770px) {
   .nav-left-container {
     display: block;
     text-align: center;
@@ -164,7 +165,7 @@ a {
   color: #555555; }
 
 .primary {
-  color: #455a64; }
+  color: #8000F1; }
 
 .secondary {
   color: #00E676; }
@@ -187,21 +188,78 @@ a {
 .icon-primary {
   color: #555555; }
 
-.trans-card {
-  padding-top: 16px;
-  background-color: rgba(0, 0, 0, 0.2);
+.contact-card {
+  margin-top: 32px;
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden; }
+
+.contact-card i {
+  padding: 16px 24px;
+  font-size: 2.3rem;
+  line-height: 1.8rem; }
+
+.contact-card i::before {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.contact-card p {
+  margin: 0;
+  padding: 16px;
+  width: 100%;
+  line-height: 1.8rem;
+  vertical-align: middle; }
+
+.card1-icon {
+  background-color: rgba(255, 103, 71, 0.7); }
+
+.card1-text {
+  background-color: #ff6747; }
+
+.card2-icon {
+  background-color: rgba(36, 164, 100, 0.7); }
+
+.card2-text {
+  background-color: #24a464; }
+
+.progress-container {
+  padding: 8px 0; }
+
+.progress-bar-base {
+  height: 0.5rem;
+  background-color: rgba(128, 0, 241, 0.2);
   border-radius: 0.5rem; }
 
-.progress {
-  background-color: rgba(0, 0, 0, 0.2); }
+.progress-bar-layer {
+  height: 0.5rem;
+  border-radius: 0.5rem; }
 
-.progress-bar {
-  background-color: #455a64; }
+.html-progress {
+  width: 60%;
+  background-color: #ff6747; }
+
+.css-progress {
+  width: 85%;
+  background-color: #78f5ff; }
+
+.js-progress {
+  width: 40%;
+  background-color: #d1ff1a; }
+
+.sass-progress {
+  width: 75%;
+  background-color: #ff509d; }
+
+.illustrator-progress {
+  width: 60%;
+  background-color: #ff6747; }
 
 .btn-primary {
-  background-color: #455a64; }
+  background-color: #8000F1; }
   .btn-primary:hover {
-    background-color: #455a64;
+    background-color: #8000F1;
     -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2); }
