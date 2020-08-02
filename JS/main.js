@@ -15,3 +15,6 @@ function navShadow (scroll) {
 		document.getElementById('navigation-container').style.boxShadow = "0 4px 16px 0 rgba(0,0,0,.2)";
 	}
 }
+
+document.getElementById("copyright");
+document.appendChild(document.createTextNode(new Date().getFullYear()));
