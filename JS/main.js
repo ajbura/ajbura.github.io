@@ -17,4 +17,4 @@ function navShadow (scroll) {
 }
 
 document.getElementById("copyright");
-document.appendChild(document.createTextNode(new Date().getFullYear()));
+document.append(new Date().getFullYear());
