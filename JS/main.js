@@ -16,5 +16,4 @@ function navShadow (scroll) {
 	}
 }
 
-document.getElementById("copyright");
-document.append(new Date().getFullYear());
+document.getElementById("copyright").append(new Date().getFullYear());
