@@ -71,21 +71,23 @@
     }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --clr-container: #000;
-    --clr-containerVariant: #111;
-    --clr-containerLine: #222;
-    --clr-onContainer: #ddd;
+    --clr-container: hsl(283 10% 20% / 1);
+    --clr-containerVariant: hsl(283 10% 10% / 1);
+    --clr-containerLine: hsl(283 10% 30% / 1);
+    --clr-onContainer: #fff;
 
-    --clr-main: #db92ff;
+    --clr-main: hsl(283, 100%, 80%);
     --clr-onMain: #000;
 
-    --clr-code: #ffb7e7;
-    --clr-link: #d5d9ff;
-    --clr-linkVisited: #ebc4ff;
+    --clr-link: hsl(234, 70%, 80%);
+    --clr-linkVisited: hsl(280, 70%, 80%);
+
+    --clr-code-ins-bg: hsl(120, 30%, 40%);
+    --clr-code-del-bg: hsl(0, 30%, 40%);
   }
-} */
+}
 
 *,
 *::before,
