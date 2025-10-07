@@ -1,0 +1,5 @@
+.nav-logo {
+    width: calc(42 / 16 * 1rem);
+    height: calc(42 / 16 * 1rem);
+    overflow: hidden;
+}
