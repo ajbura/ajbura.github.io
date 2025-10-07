@@ -1,0 +1,476 @@
+/*
+* display text
+*/
+
+.display-500 {
+    font-size: var(--fs-d500);
+    line-height: var(--lh-d500);
+    letter-spacing: var(--ls-d500);
+    font-weight: 600;
+}
+.display-400 {
+    font-size: var(--fs-d400);
+    line-height: var(--lh-d400);
+    letter-spacing: var(--ls-d400);
+    font-weight: 600;
+}
+.display-300 {
+    font-size: var(--fs-d300);
+    line-height: var(--lh-d300);
+    letter-spacing: var(--ls-d300);
+    font-weight: 600;
+}
+
+/*
+* text
+*/
+.text-initial {
+    font-size: initial;
+    line-height: initial;
+    letter-spacing: initial;
+}
+.text-inherit {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+}
+.text-300 {
+    font-size: var(--fs-t300);
+    line-height: var(--lh-t300);
+    letter-spacing: var(--ls-t300);
+}
+.text-400 {
+    font-size: var(--fs-t400);
+    line-height: var(--lh-t400);
+    letter-spacing: var(--ls-t400);
+}
+.text-500 {
+    font-size: var(--fs-t500);
+    line-height: var(--lh-t500);
+    letter-spacing: var(--ls-t500);
+}
+
+/*
+* font-weight
+*/
+.fw-initial {
+    font-weight: initial;
+}
+.fw-inherit {
+    font-weight: inherit;
+}
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+
+/*
+* text align
+*/
+.align-inherit {
+    text-align: inherit;
+}
+.align-initial {
+    text-align: initial;
+}
+.align-start {
+    text-align: start;
+}
+.align-center {
+    text-align: center;
+}
+.align-end {
+    text-align: end;
+}
+
+/*
+* text transform
+*/
+.tt-uppercase {
+    text-transform: uppercase;
+}
+.tt-lowercase {
+    text-transform: lowercase;
+}
+.tt-capitalize {
+    text-transform: capitalize;
+}
+.tt-normal {
+    text-transform: none;
+}
+
+/*
+* text truncate
+*/
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/**
+* text color
+*/
+.tc-main {
+    color: var(--clr-main);
+}
+
+/*
+* background colors
+*/
+.clr-container {
+    background-color: var(--clr-container);
+    color: var(--clr-onContainer);
+}
+.clr-containerVariant {
+    background-color: var(--clr-containerVariant);
+    color: var(--clr-onContainer);
+}
+.clr-main {
+    background-color: var(--clr-main);
+    color: var(--clr-onMain);
+}
+
+/*
+*outlined
+*/
+.outlined:not(:focus) {
+    outline: var(--clr-containerLine) solid 1px;
+    outline-offset: -1px;
+}
+
+/*
+* border
+*/
+.border {
+    border: 1px solid var(--clr-containerLine);
+}
+.border-t {
+    border-top: 1px solid var(--clr-containerLine);
+}
+.border-r {
+    border-right: 1px solid var(--clr-containerLine);
+}
+.border-b {
+    border-bottom: 1px solid var(--clr-containerLine);
+}
+.border-l {
+    border-left: 1px solid var(--clr-containerLine);
+}
+.border-clr-current {
+    border-color: currentColor;
+}
+
+/*
+* flex
+*/
+.flex {
+    display: flex;
+}
+.flex-inline {
+    display: flex-inline;
+}
+
+/* flex direction */
+.flex-row {
+    flex-direction: row;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* flex wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* justify content */
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+/* align items */
+.items-start {
+    align-items: flex-start;
+}
+.items-end {
+    align-items: flex-end;
+}
+.items-center {
+    align-items: center;
+}
+.items-baseline {
+    align-items: baseline;
+}
+.items-stretch {
+    align-items: stretch;
+}
+
+/* flex grow */
+.grow {
+    flex-grow: 1;
+    min-height: 0;
+    min-width: 0;
+}
+.grow-0 {
+    flex-grow: 0;
+}
+
+/* flex shrink */
+.shrink {
+    flex-shrink: 1;
+}
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.basis-0 {
+    flex-basis: 0;
+}
+
+/* flex gap */
+.gap-0 {
+    gap: 0;
+}
+.gap-100 {
+    gap: var(--sp-100);
+}
+.gap-200 {
+    gap: var(--sp-200);
+}
+.gap-300 {
+    gap: var(--sp-300);
+}
+.gap-400 {
+    gap: var(--sp-400);
+}
+.gap-500 {
+    gap: var(--sp-500);
+}
+.gap-600 {
+    gap: var(--sp-600);
+}
+.gap-700 {
+    gap: var(--sp-700);
+}
+.gap-800 {
+    gap: var(--sp-800);
+}
+
+/*
+* remove properties
+*/
+.x-margin {
+    margin: 0;
+}
+.x-mw {
+    min-width: 0;
+}
+.x-mh {
+    min-height: 0;
+}
+.x-a-clr {
+    /*
+  this class is used in tags.css as a:not(.x-a-clr).
+  it is here only for docs
+  */
+}
+
+/*
+* line-clamp
+*/
+.clamp-2,
+.clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.clamp-2 {
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+}
+.clamp-3 {
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+}
+
+/*
+* elevate on hover
+*/
+.elv {
+    --elv-h: calc(4 / 16 * 1rem);
+    box-shadow: 0 calc(var(--elv-h) * 2) 0 calc(var(--elv-h) * -1)
+        var(--clr-containerLine);
+}
+
+.hover-elv {
+    transition: transform 100ms ease-in-out;
+}
+.hover-elv:hover {
+    --elv-h: calc(4 / 16 * 1rem);
+    transform: translateY(-3px);
+    box-shadow: 0 calc(var(--elv-h) * 2) 0 calc(var(--elv-h) * -1)
+        var(--clr-containerLine);
+}
+
+/*
+* main background
+*/
+.bg-main {
+    background-color: var(--clr-onMain);
+    color: var(--clr-onMain);
+    background-image:
+        repeating-linear-gradient(
+            -36deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            -32deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            -28deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            -34deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            96deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            92deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            98deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        repeating-linear-gradient(
+            94deg,
+            var(--clr-main) 0px,
+            var(--clr-main) 1px,
+            transparent 1px,
+            transparent 2px
+        );
+}
+
+.bg-diagonal-dots {
+    position: relative;
+
+    --dot-size: 1px;
+    --dot-tile-size: 10px;
+    --dot-color: var(--clr-containerLine);
+    --dot-tile-color: transparent;
+
+    background-color: var(--clr-container);
+}
+
+.bg-diagonal-dots::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    background: radial-gradient(
+        var(--dot-color),
+        var(--dot-color) var(--dot-size),
+        var(--dot-tile-color) var(--dot-size),
+        var(--dot-tile-color) var(--dot-tile-size)
+    );
+
+    background-size: var(--dot-tile-size) var(--dot-tile-size);
+}
+
+.bg-diagonal-dots::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: radial-gradient(
+        var(--dot-color),
+        var(--dot-color) var(--dot-size),
+        transparent var(--dot-size),
+        transparent var(--dot-tile-size)
+    );
+
+    background-size: var(--dot-tile-size) var(--dot-tile-size);
+    background-position: calc(var(--dot-tile-size) / 2)
+        calc(var(--dot-tile-size) / 2);
+}
+
+/*
+* glass background
+*/
+.glass {
+    backdrop-filter: blur(30px); /* core of the glass effect */
+    -webkit-backdrop-filter: blur(30px); /* Safari support */
+}

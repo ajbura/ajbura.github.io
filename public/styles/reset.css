@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+hr,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+}
+
+a,
+b,
+button,
+caption,
+cite,
+del,
+em,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+mark,
+output,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+textarea,
+time,
+u,
+var {
+    font-size: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+a {
+    color: currentColor;
+}
+
+b,
+strong {
+    font-weight: 600;
+}

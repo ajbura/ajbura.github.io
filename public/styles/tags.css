@@ -1,0 +1,137 @@
+h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-h1);
+    letter-spacing: var(--ls-h1);
+    margin-bottom: var(--sp-200);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+    letter-spacing: var(--ls-h2);
+    margin-bottom: var(--sp-200);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+    letter-spacing: var(--ls-h3);
+    margin-bottom: var(--sp-300);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: var(--fs-h4);
+    line-height: var(--lh-h4);
+    letter-spacing: var(--ls-h4);
+    margin-bottom: var(--sp-300);
+    font-weight: 600;
+}
+
+h5 {
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+    letter-spacing: var(--ls-h5);
+    margin-bottom: var(--sp-300);
+    font-weight: 600;
+}
+
+h6 {
+    font-size: var(--fs-h6);
+    line-height: var(--lh-h6);
+    letter-spacing: var(--ls-h6);
+    margin-bottom: var(--sp-300);
+    font-weight: 600;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: var(--sp-600);
+}
+ul {
+    list-style-type: square;
+}
+
+blockquote {
+    border-left: calc(4 / 16 * 1rem) solid currentColor;
+    padding-left: var(--sp-400);
+    margin-bottom: var(--sp-600);
+}
+
+a {
+    text-decoration: none;
+}
+a:not(.x-a-clr) {
+    color: var(--clr-link);
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited:not(.x-a-clr) {
+    color: var(--clr-linkVisited);
+}
+
+button,
+.btn {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    border: none;
+
+    display: inline-block;
+    align-items: center;
+    gap: var(--sp-200);
+
+    padding: var(--sp-100) var(--sp-300);
+
+    font-size: var(--fs-t400);
+    line-height: var(--lh-t400);
+    letter-spacing: var(--ls-t400);
+    font-weight: 400;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+button:hover,
+.btn:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid var(--clr-containerLine);
+    margin-bottom: var(--sp-600);
+}
+
+pre {
+    margin-bottom: var(--sp-600);
+    padding: var(--sp-200);
+    font-size: 0.9em;
+    white-space: pre-wrap;
+}
+pre ins {
+    background-color: var(--clr-code-ins-bg);
+}
+pre del {
+    background-color: var(--clr-code-del-bg);
+}
+
+nav {
+    padding: var(--content-padding);
+}
+
+section {
+    width: 100%;
+    max-width: calc(var(--content-width) + 2 * var(--content-padding));
+
+    margin: calc(84 / 16 * 1rem) auto;
+    padding: 0 var(--content-padding);
+}
+
+footer {
+    padding: var(--sp-500) var(--content-padding);
+    border-top: 1px solid var(--clr-containerLine);
+}
